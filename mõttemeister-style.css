@@ -118,6 +118,31 @@ footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 20px;
 	background-color: #e6e6e6;
+}
+
+
+@media only screen and (max-width: 720px) {
+	h1 {
+		padding-top: 30px;
+		font-size: 260%;
+	}
+	
+	.menüü a {
+		font-size: 120%;
+	}
+	
+	.menüü a:hover {
+		font-size: 140%;
+	}
+	
+	p {
+		max-width: 320px;
+	}
+
+	
+	h2 {
+		font-size: 90%;
+	}
 }
