@@ -1,0 +1,123 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	font-family: 'Jura', sans-serif;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+
+
+
+header, main, footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 400%;
+}
+
+.punane {
+	color: red;
+}
+
+.roheline {
+	color: green;
+}
+
+.sinine {
+	color: blue;
+}
+
+.kollane {
+	color: yellow;
+}
+
+.lilla {
+	color: purple;
+}
+
+.menüü {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menüü a {
+	font-weight: 300;
+	font-size: 150%;
+	color: purple;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.menüü a:hover {
+	font-size: 180%;
+}
+
+
+p {
+	max-width: 600px;
+	line-height: 30px;
+}
+
+p a {
+	color: green;
+	text-decoration: none;
+}
+
+p a:hover {
+	color: purple;
+}
+
+
+
+.swiper-container {
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 150px;
+}
+.swiper-slide img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.swiper-button-next {
+	color: green!important;
+}
+
+.swiper-button-prev {
+	color: green!important;
+}
+
+.container {
+	max-width: 800px;
+}
+
+@media only screen and (max-width: 960px) {
+	.container {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+}
+
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50px;
+	background-color: #e6e6e6;
+}

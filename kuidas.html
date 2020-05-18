@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="et">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Triinu Aug">
+		<meta name="description" content="Mõttemeister, kuidas?">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>Kuidas mängida?</title>
+		
+		<link rel="stylesheet" href="mõttemeister-style.css">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap" rel="stylesheet">
+		
+		
+		<link rel="stylesheet" href="swiper.min.css">
+
+	</head>
+	
+	<body>
+	
+		<header>
+		
+			<h1><span class="punane">M</span>Õ<span class="kollane">T</span><span class="sinine">T</span><span class="lilla">E</span><span class="roheline">M</span>E<span class="sinine">I</span><span class="lilla">S</span><span class="roheline">T</span><span class="kollane">E</span><span class="punane">R</span></h1>
+			
+			<div class="menüü">
+				<a href="index.html">Mis?</a>
+				
+				<a href="kuidas.html">Kuidas mina saan mängida?</a>
+			</div>
+		
+		</header>
+		
+		<main>
+		
+		<!--	<h2>Kuidas mina saan mängida?</h2> -->
+			
+			<p>1. Lae projekt alla <a href="https://github.com/Kmjaanus/OOPprojekt">githubist</a>!<br>
+			2. Jooksuta gradle'i projekti (peaklass on Mõttemeister.java)! <br>
+			3. Jälgi ekraanile tulevaid juhiseid!<br>
+			</p>
+			
+				<!-- Swiper -->			
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="demo1.png"/></div>
+					<div class="swiper-slide"><img src="demo2.png"/></div>
+					<div class="swiper-slide"><img src="demo3.png"/></div>
+					<div class="swiper-slide"><img src="demo4.png"/></div>
+					<div class="swiper-slide"><img src="demo5.png"/></div>
+				</div>
+
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+
+			<!-- Swiper JS -->
+			<script src="swiper.min.js"></script>
+
+			<!-- Initialize Swiper -->
+			<script>
+			var swiper = new Swiper('.swiper-container', {
+			  navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			  },
+			});
+			</script>
+			
+		</main>
+		
+		<footer>
+		
+			<h3>Autorid Triinu Aug ja Kenneth-Marten Jaanus</h3>
+			
+			<p>Tartu 2020</p>
+		
+		</footer>
+	
+	</body>
+</html>
